@@ -11,6 +11,7 @@
         android:id="@+id/Login_button"
         android:layout_width="103dp"
         android:layout_height="51dp"
+        android:onClick="loginclick"
         android:shadowColor="#E30606"
         android:text="Login"
         app:icon="@drawable/login_icon"
