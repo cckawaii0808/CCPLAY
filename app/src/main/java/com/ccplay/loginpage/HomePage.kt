@@ -24,7 +24,8 @@ class HomePage : AppCompatActivity() {
             R.id.navigation_home, R.id.navigation_dashboard, R.id.navigation_notifications))
         //setupActionBarWithNavController(navController, appBarConfiguration)
         //navView.setupWithNavController(navController)
-        //setContentView(R.layout.activity_home_page)
+        //setContentView(R.layout.activity_home_page)//和上面的binding 擇一即可 一個是透過介面進入，一個是指定位置
+        //按住conmand+點擊可以直接進入該位置
     }
 }
 
