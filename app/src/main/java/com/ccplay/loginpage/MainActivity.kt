@@ -1,5 +1,6 @@
 package com.ccplay.loginpage
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
@@ -16,9 +17,15 @@ class MainActivity : AppCompatActivity() {
     }
 
 
-    fun loginclick(view: View) {
+    fun loginclick(view: View) {//方法後為按鈕onclick設定的名字
         Toast.makeText(this, "使用者嘗試登入", Toast.LENGTH_LONG).show()//顯示bmi在小訊息匡
-    }//方法後為按鈕onclick設定的名字
+        //下面開始轉換第二個畫面Activity
+        val intent=Intent(this,HomePage::class.java)
+        startActivity(intent)
+    }
+
+
 
 
 }
+

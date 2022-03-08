@@ -13,7 +13,7 @@
         android:layout_height="51dp"
         android:onClick="loginclick"
         android:shadowColor="#E30606"
-        android:text="Login"
+        android:text="@string/login"
         app:icon="@drawable/login_icon"
         app:iconSize="@android:dimen/system_app_widget_background_radius"
         app:layout_constraintBottom_toTopOf="@+id/guideline2"
